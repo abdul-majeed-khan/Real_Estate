@@ -451,7 +451,7 @@ Version:	1.0
 .homec-experiences {
   position: absolute;
   top: 20px;
-  left: 30px;
+  left: 20px;
   background: #111111;
   width: auto;
   padding: 15px 30px;
@@ -591,8 +591,8 @@ Version:	1.0
 #homec-tabs.homec-gl-tabs a {
   width: 42px;
   height: 42px;
-  left: ;
-  line-height: ;
+  /* left: ;
+  line-height: ; */
   padding: 0;
   display: flex;
   justify-content: center;
@@ -3965,7 +3965,7 @@ blockquote::before {
 .homec-funfact__icon {
   width: 80px;
   height: 80px;
-  background: #5d48df;
+  background: #222933;
   color: #fff;
   font-size: 35px;
   position: relative;
@@ -6684,7 +6684,7 @@ div.ck-editor.ck-rounded-corners {
   border-radius: 4px;
 }
 .homec-focus-content p {
-  color: #7166f0;
+  color: #7e8ba0;
 }
 .homec-focus-content.homec-focus-content--v2 {
   background: transparent;
@@ -6720,7 +6720,7 @@ div.ck-editor.ck-rounded-corners {
 }
 .homec-section__title {
   margin: 0;
-  font-size: 42px;
+  font-size: 28px;
 }
 .section-white .homec-section__title,
 .section-white .sec-head__text {

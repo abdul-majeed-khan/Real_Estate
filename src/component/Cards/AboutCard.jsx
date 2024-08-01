@@ -7,7 +7,7 @@ function AboutCard({ img, text, count }) {
         <img src={img} alt="#" />
       </div>
       <h3 className="homec-funfact__number">
-        <span className="counter">{count}</span>k+ Renters
+        <span className="counter">{count}</span>
       </h3>
       <p className="homec-funfact__text">{text}</p>
     </div>
