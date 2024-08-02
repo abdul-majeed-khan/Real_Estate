@@ -101,7 +101,7 @@ const property = [
     price: 976,
     period: "month",
     whatFor: "To sale",
-    propertyLink: "/agent-detail",
+    propertyLink: "/property-single",
     name: "Diamond Manco Apartment",
     address: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
     detailsList: [
