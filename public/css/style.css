@@ -6712,11 +6712,12 @@ div.ck-editor.ck-rounded-corners {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 30px 24px;
+  /* padding: 30px 24px; */
   color: #111111;
-  font-size: 24px;
+  font-size: 44px;
   display: inline-block;
   font-weight: 500;
+  padding-bottom: 30px;
 }
 .homec-section__title {
   margin: 0;

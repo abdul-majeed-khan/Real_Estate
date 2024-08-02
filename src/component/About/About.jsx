@@ -35,7 +35,7 @@ function About() {
                   <img src="img/abtus2.jpg" alt="About us" />
                 </div>
                 <h4 className="homec-ceo-quote__title">
-                  Wade De Warren<span>Homec Ceo & Founder</span>
+                  Championing<span>Excelence since 2019</span>
                 </h4>
               </div>
             </div>
@@ -80,12 +80,12 @@ function About() {
                   <AboutCard
                     text="believe in our service & Care"
                     img="img/count-icon1.svg"
-                    count="1000 + Clients"
+                    count="1000+ Clients"
                   />
                   <AboutCard
-                    text="house ready for occupancy"
+                    text="exceeding customer expectations"
                     img="img/count-icon2.svg"
-                    count="2B+ Sales"
+                    count="$ 8 Billion+ Deals"
                   />
                 </div>
               </div>
