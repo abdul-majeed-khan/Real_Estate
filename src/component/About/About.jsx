@@ -3,7 +3,7 @@ import AboutShapeImg from "./AboutShapeImg";
 
 function About() {
   return (
-    <section className="homec-about homec-bg-third-color pd-top-90 pd-btm-120">
+    <section className="homec-about {/*homec-bg-third-color*/} pd-top-90 pd-btm-120">
       <div className="homec-shape">
         <AboutShapeImg img="img/anim-shape-1.svg" design="homec-shape-1" />
         <AboutShapeImg img="img/anim-shape-2.svg" design="homec-shape-2" />
