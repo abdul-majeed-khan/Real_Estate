@@ -7,7 +7,6 @@ function TitleWithBtn({
   link,
   btnText,
   styleCategory,
-  styleTitle,
   btn,
 }) {
   return (
@@ -27,7 +26,7 @@ function TitleWithBtn({
           className="homec-section__title"
           data-aos="fade-in"
           data-aos-delay="400"
-          style={styleTitle}
+          style={{color: "#ffff"}}
         >
           {title}
         </h2>
