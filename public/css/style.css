@@ -939,7 +939,7 @@ input[type="checkbox"]:checked::before {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  color: #7166f0;
+  color: #222933;
 }
 .homec-heart svg {
   stroke: currentColor;
@@ -947,7 +947,7 @@ input[type="checkbox"]:checked::before {
   transition: all 0.3s ease;
 }
 .homec-heart:hover svg {
-  fill: #7166f0;
+  fill: #222933;
   stroke: #7166f0;
 }
 
@@ -956,7 +956,7 @@ input[type="checkbox"]:checked::before {
 }
 .homec-property__price {
   font-size: 24px;
-  color: #7166f0;
+  color: #586472;
   font-weight: 700;
 }
 .homec-property__price span {
@@ -972,7 +972,7 @@ input[type="checkbox"]:checked::before {
   font-weight: 600;
 }
 .homec-property:hover .homec-property__title a {
-  color: #7166f0;
+  color: #586472;
 }
 .homec-property__text {
   display: flex;
@@ -1023,7 +1023,7 @@ input[type="checkbox"]:checked::before {
   margin: 0;
 }
 .homec-property__asticky--label span {
-  color: #7166f0;
+  color: #586472;
   font-weight: 400;
 }
 .homec-slider-property .homec-property {
