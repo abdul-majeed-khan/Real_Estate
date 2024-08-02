@@ -10,8 +10,13 @@ function LatestPropertyV2() {
     <div>
       <section
         className="homec-properties homec-bg-cover homec-bg-third-color pd-top-90 pd-btm-120"
-        style={{ backgroundImage: "url('img/bg-shape-one.svg')" }}
+        style={{ backgroundImage: "url('img/bg-shape-four.svg')" }}
       >
+        <div className="homec-shape">
+          <div className="homec-shape-single homec-shape-7">
+            <img src="img/anim-shape-4.svg" alt="#" />
+          </div>
+        </div>
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -19,7 +24,7 @@ function LatestPropertyV2() {
                 category="View All 329 New Listings"
                 title="Latest Properties"
                 link="/property"
-                btnText="See all  Properties"
+                btnText="See all Properties"
               />
             </div>
           </div>
@@ -30,7 +35,7 @@ function LatestPropertyV2() {
                 showDots={true}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={3000}
+                autoPlaySpeed={2000}
                 removeArrowOnDeviceType={[
                   "superLargeDesktop",
                   "desktop",
