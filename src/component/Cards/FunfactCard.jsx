@@ -1,5 +1,5 @@
 import ProtoTypes from "prop-types";
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 
 function FunfactCard({ img, count, standard, title, v2 }) {
   return (
@@ -17,7 +17,7 @@ function FunfactCard({ img, count, standard, title, v2 }) {
         </div>
         <h3 className="homec-funfact__number">
           <span className="counter">
-            <CountUp end={count} />
+            {count}
           </span>
           {standard}
         </h3>
