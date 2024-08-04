@@ -8,7 +8,7 @@ function FunFacts({ v2 }) {
     <section
       className={`homec-funfacts pd-btm-100 ${v2 && "pd-top-120 mg-top-30"}`}
     >
-      <img src="https://placehold.co/1920x430" alt="#" />
+      <img src="img/bg1.jpg" alt="#" />
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -25,11 +25,10 @@ function FunFacts({ v2 }) {
                       data-aos-delay="300"
                     >
                       <h2 className="homec-section__title mg-btm-10">
-                        Fun Facts
+                        Why Choose us
                       </h2>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, majority have suffered.
+                        With our lifestyle-attention products we lead a portfolio of properties that have pioneered a modern style in the market and top-of-the-line properties in Dubai and the world
                       </p>
                     </div>
                     {/* Homec List  */}
@@ -38,39 +37,39 @@ function FunFacts({ v2 }) {
                       data-aos="fade-up"
                       data-aos-delay="400"
                     >
-                      <FunFactList title="Suspe ndisse suscipit sagittis leo." />
-                      <FunFactList title="Entum estibulum dignissim as posuere." />
-                      <FunFactList title="Entum estibulum dignissim as posuere." />
+                      <FunFactList title="Wide range of properties all over Dubai." />
+                      <FunFactList title="We offer properties in best price range." />
+                      <FunFactList title="We are one of the best service provider in Dubai." />
                     </ul>
                     {/* Homec Button  */}
-                    <ButtonOne title="Need any House" />
+                    <ButtonOne title="Contact Us" />
                   </div>
                 </div>
                 <div className="col-lg-7 col-12">
                   <div className="homec-funfacts">
                     <div className="row">
                       <FunfactCard
-                        img="img/funfact-icon1.svg"
-                        count={435}
+                        img="img/hand-icon.svg"
+                        count="Trusted"
                         title="Happy Customer"
-                        standard="K"
+                        // standard="K"
                       />
                       <FunfactCard
-                        img="img/funfact-icon2.svg"
-                        count={123}
-                        title="Co-agent"
-                        standard="K"
+                        img="img/support-icon.svg"
+                        count="24/7 Support"
+                        title="Any Time"
+                        // standard="K"
                       />
                       <FunfactCard
-                        img="img/funfact-icon3.svg"
-                        count={120}
-                        title="Branches around"
+                        img="img/finance-icon.svg"
+                        count="Financing Easy"
+                        title="Support for Mortgage"
                       />
                       <FunfactCard
-                        img="img/funfact-icon3.svg"
-                        count={150}
-                        title="Built Hose"
-                        standard="K"
+                        img="img/wide-house-icon.svg"
+                        count="Best Offers"
+                        title="Best Price in the Market"
+                        // standard="K"
                       />
                     </div>
                   </div>
