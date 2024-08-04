@@ -4,15 +4,23 @@ import Select from "react-dropdown-select";
 const options = [
   {
     id: 1,
-    name: "Dhaka",
+    name: "Downtown",
   },
   {
     id: 2,
-    name: "New York",
+    name: "Business Bay",
   },
   {
     id: 2,
-    name: "Sydney",
+    name: "Dubai Marina",
+  },
+  {
+    id: 2,
+    name: "Palm Jumeirah",
+  },
+  {
+    id: 2,
+    name: "Jumeirah village circle",
   },
 ];
 
