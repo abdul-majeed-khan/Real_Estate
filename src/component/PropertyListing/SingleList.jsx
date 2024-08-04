@@ -6,7 +6,7 @@ function SingleList({ listing, place, img, link }) {
         <img src={img} alt="#" />
         <div className="homec-overlay homec-listing__overlay"></div>
         <h4 className="homec-listing__title">
-          <span>{listing}+ Listing</span>
+          <span>{listing}+ Properties</span>
           {place}
         </h4>
       </a>
