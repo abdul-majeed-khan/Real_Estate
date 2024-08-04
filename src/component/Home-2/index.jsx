@@ -6,8 +6,8 @@ import HomecHero from "../HomecHero/HomecHeroV2";
 import Features from "../Features/FeaturesV2";
 import About from "../About/About";
 import LatestPropertyV2 from "../LatestProperty/LatestPropertyV2";
-import AgentsV2 from "../Agents/AgentsV2";
 import PropertyListing from "../PropertyListing";
+import AgentsV2 from "../Agents/AgentsV2";
 import FunFacts from "../FunFact";
 import CustomerReviews from "../CustomerReviews";
 import DownloadApp from "../DownloadApp";
@@ -31,8 +31,8 @@ function Home2() {
         <Features />
         <About />
         <LatestPropertyV2 />
-        <AgentsV2 />
         <PropertyListing />
+        <AgentsV2 />
         <FunFacts />
         <CustomerReviews />
         <DownloadApp />
