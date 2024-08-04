@@ -2497,7 +2497,7 @@ input[type="checkbox"]:checked::before {
 }
 .homec-agent__title {
   color: #111111;
-  font-size: 22px;
+  font-size: 20px;
   margin: 0;
   font-weight: 600;
 }
@@ -2505,7 +2505,7 @@ input[type="checkbox"]:checked::before {
   font-weight: 600;
 }
 .homec-agent:hover .homec-agent__title a {
-  color: #7166f0;
+  color: #586472;
 }
 .homec-agent__social {
   position: absolute;
@@ -2528,7 +2528,7 @@ input[type="checkbox"]:checked::before {
   fill: currentColor;
 }
 .homec-agent__social li a {
-  background: #eceaff;
+  background: #e3e3e3;
   width: 30px;
   display: flex;
   justify-content: center;
@@ -2539,7 +2539,7 @@ input[type="checkbox"]:checked::before {
   border: 1px solid transparent;
 }
 .homec-agent__social li a:hover {
-  background: #7166f0;
+  background: #222933;
   color: #fff;
   border-color: transparent;
 }
@@ -3920,16 +3920,16 @@ blockquote::before {
   background: #f5f4ff;
 }
 .homec-funfact__single:hover {
-  background-color: #7166f0;
+  background-color: #222933;
 }
 .homec-funfacts .homec-funfact__single {
   margin-top: 70px;
 }
 .homec-funfact__single:hover {
-  border-color: #7166f0;
+  border-color: #586472;
 }
 .homec-funfact__number {
-  font-size: 40px;
+  font-size: 24px;
   margin: 0;
   margin-top: 25px;
   font-weight: 600;
@@ -6931,12 +6931,12 @@ div.ck-editor.ck-rounded-corners {
   display: flex;
   align-items: center;
   gap: 15px;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
 }
 .homec-iconic-list li i {
   color: #fff;
-  background: #7166f0;
+  background: #586473;
   min-width: 28px;
   min-height: 28px;
   line-height: 28px;
