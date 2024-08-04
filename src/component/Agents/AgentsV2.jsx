@@ -9,22 +9,22 @@ function AgentsV2() {
   return (
     <section
       className="homec-bg-third-color homec-bg-cover pd-top-90 pd-btm-120"
-      style={{ backgroundImage: "url('https://placehold.co/1920x880')" }}
+      style={{ backgroundImage: "url('img/banner1.jpg')" }}
     >
       <div className="homec-overlay"></div>
       <div
         className="section-inside-bg"
-        style={{ backgroundImage: "url('img/agent-bg-2.jpg')" }}
+        style={{ backgroundImage: "url('img/bg-shape-five.svg')" }}
       ></div>
       <div className="container">
         <div className="row">
           <div className="col-12">
             <TitleWithBtn
-              category="View all 234 Agent"
-              title="Meet Properties Agents"
+              category="View all Agent"
+              title="Meet Our Team"
               link="/our-agent"
               btnText="See All Agents"
-              styleCategory={{ color: "#F2C94C" }}
+              styleCategory={{ color: "#a3a3a3" }}
               styleTitle={{ color: "#ffff" }}
             />
           </div>
@@ -39,7 +39,7 @@ function AgentsV2() {
                   infinite={true}
                   autoPlay={true}
                   dotListClass={"dotList"}
-                  autoPlaySpeed={3000}
+                  autoPlaySpeed={2000}
                   removeArrowOnDeviceType={[
                     "superLargeDesktop",
                     "desktop",
