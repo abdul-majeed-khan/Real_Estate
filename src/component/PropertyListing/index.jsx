@@ -11,8 +11,8 @@ function PropertyListing() {
         <div className="row">
           <div className="col-12">
             <Title
-              firstText="View All 329 New Listings"
-              secondText="Explore a Neighborhood or City"
+              firstText="Areas"
+              secondText="Dubai Top Areas"
               marginSize="60"
             />
             <HomeSearch />
@@ -28,42 +28,42 @@ function PropertyListing() {
               >
                 <Masonry gutter="20px">
                   <SingleList
-                    listing="4"
-                    place="Hong Kong"
-                    img="https://placehold.co/274x567"
+                    listing="50"
+                    place="Downtown"
+                    img="img/downtown.jpg"
                     link="#"
                   />
                   <SingleList
-                    listing="4"
-                    place="New Castle"
-                    img="https://placehold.co/274x320"
+                    listing="45"
+                    place="Business Bay"
+                    img="img/businessbay.jpg"
                     link="#"
                   />
                   <SingleList
-                    listing="4"
-                    place="Tokyo"
-                    img="https://placehold.co/274x565"
+                    listing="55"
+                    place="Dubai Marina"
+                    img="img/marina.jpg"
                     link="#"
                   />
                   <SingleList
-                    listing="4"
-                    place="Boston"
-                    img="https://placehold.co/274x221"
+                    listing="30"
+                    place="Palm Jumeirah"
+                    img="img/palm.jpg"
                     link="#"
                   />{" "}
-                  <SingleList
-                    listing="4"
-                    place="New Castle"
-                    img="https://placehold.co/274x225"
+                  {/* <SingleList
+                    listing="60"
+                    place="Jumeirah Village Circle"
+                    img="img/jvc.jpg"
                     link="#"
-                  />
+                  /> */}
                   <div></div>
-                  <SingleList
+                  {/* <SingleList
                     listing="4"
                     place="New Castle"
                     img="https://placehold.co/274x322"
                     link="#"
-                  />
+                  /> */}
                 </Masonry>
               </ResponsiveMasonry>
             </div>
@@ -71,7 +71,7 @@ function PropertyListing() {
           </div>
         </div>
         <div className="row">
-          <TitleBtn link="property" text="See all City" delay="700" />
+          <TitleBtn link="property" text="See all Areas" delay="700" />
         </div>
       </div>
     </section>
