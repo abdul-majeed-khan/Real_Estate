@@ -1,6 +1,6 @@
 import Header from "../Header";
 import Footer from "../Footer";
-import DownloadApp from "../DownloadApp";
+// import DownloadApp from "../DownloadApp";
 import HistoryLinks from "../Breadcrumbs/HistoryLinks";
 import Breadcrumbs from "../Breadcrumbs";
 import AgentCard from "../Cards/AgentCard";
@@ -77,7 +77,7 @@ function OurAgents() {
         </section>
 
         <FaqSection />
-        <DownloadApp />
+        {/* <DownloadApp /> */}
         <Footer />
         <GoTopBtn />
       </>
