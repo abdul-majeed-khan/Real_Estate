@@ -6030,7 +6030,7 @@ div.ck-editor.ck-rounded-corners {
 }
 .single-widget li a:hover {
   transform: translateX(10px);
-  color: #7166f0;
+  color: #555555;
 }
 
 .single-widget.footer-contact li a {
@@ -7017,7 +7017,7 @@ div.ck-editor.ck-rounded-corners {
   width: 26px;
   height: 26px;
   line-height: 26px;
-  background: #eceaff;
+  background: #fefefe;
   line-height: 26px;
   border: 1px solid transparent;
 }
@@ -7025,7 +7025,7 @@ div.ck-editor.ck-rounded-corners {
   max-width: 12px;
 }
 .homec-social.homec-social__v2 li a:hover {
-  background-color: #7166f0 !important;
+  background-color: #586472 !important;
   color: #fff !important;
   border-color: #fdeaee;
 }
