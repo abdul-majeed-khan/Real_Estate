@@ -21,7 +21,7 @@ function LatestPropertyV2() {
           <div className="row">
             <div className="col-12">
               <TitleWithBtn
-                category="View All 329 New Listings"
+                category="View All New Listings"
                 title="Latest Properties"
                 link="/property"
                 btnText="See all Properties"

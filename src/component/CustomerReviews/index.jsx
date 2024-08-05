@@ -34,7 +34,7 @@ function CustomerReviews() {
               showDots={false}
               infinite={true}
               autoPlay={true}
-              autoPlaySpeed={3000}
+              autoPlaySpeed={2000}
               removeArrowOnDeviceType={[
                 "superLargeDesktop",
                 "desktop",
@@ -69,7 +69,7 @@ function CustomerReviews() {
                 showDots={false}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={3000}
+                autoPlaySpeed={2000}
                 removeArrowOnDeviceType={[
                   "superLargeDesktop",
                   "desktop",
