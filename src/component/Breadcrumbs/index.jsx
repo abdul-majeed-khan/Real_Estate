@@ -7,7 +7,7 @@ function Breadcrumbs({ title, children, titlePosition, background, overlay }) {
       style={{
         backgroundImage: background
           ? background
-          : "url(https://placehold.co/1920x455)",
+          : "url(img/bg-2.jpg)",
       }}
     >
       {overlay && <div className="homec-overlay"></div>}

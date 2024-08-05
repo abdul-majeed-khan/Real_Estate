@@ -160,17 +160,17 @@ function Footer() {
                           <ul className="f-contact-list list-none">
                             <li>
                               <img src="img/footer-phone.svg" alt="#" />
-                              <a href="tel:+(323)750-1234">+(323) 750-1234</a>
+                              <a href="tel:(+971) 58 535 9315">(+971) 58 535 9315</a>
                             </li>
                             <li>
                               <img src="img/footer-message.png" alt="#" />
                               <a href="mailto:infoyour@gmail.com">
-                                infoyour@gmail.com
+                                info@platinumsquare.ae
                               </a>
                             </li>
                             <li>
                               <img src="img/footer-location.png" alt="#" />
-                              <p>374 FA Tower, William S Blvd 2721, IL, USA</p>
+                              <p>#2904 Concord Tower, Media City, PO.Box 93497, Dubai, UAE</p>
                             </li>
                           </ul>
                         </div>
@@ -191,10 +191,10 @@ function Footer() {
             <div className="col-lg-6 col-12">
               {/* Copyright Text   */}
               <p className="copyright-text">
-                © 2023 Homeco. All rights reserved by
-                <a href="#" target="_blank">
+                © 2023 Platinum Square real Estate. All rights reserved.
+                {/* <a href="#" target="_blank">
                   QuomodoTheme
-                </a>
+                </a> */}
               </p>
             </div>
             <div className="col-lg-6 col-12">

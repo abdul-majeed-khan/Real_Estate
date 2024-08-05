@@ -17,19 +17,19 @@ function Topbar({ v2 }) {
                 }`}
               >
                 <TopbarBtn
-                  link="mailto:HomeC34@gmail.com"
+                  link="mailto:info@platinumsquare.ae"
                   img="img/email-icon.svg"
-                  text="HomeC34@gmail.com"
+                  text="info@platinumsquare.ae"
                 />
                 <TopbarBtn
-                  link="tel:+00239040248"
+                  link="tel:+971585359315"
                   img="img/phone-icon.svg"
-                  text="+00 23904 0248"
+                  text="+971 58 535 9315"
                 />
                 <TopbarBtn
                   link="mailto:HomeC34@gmail.com"
                   img="img/locations-icon.svg"
-                  text="1901 Thornridge Cir. Shiloh, Hawaii 81063"
+                  text="2904 Concord Tower, Media City, PO.Box 93497"
                 />
               </ul>
               {/* End Contact  */}
