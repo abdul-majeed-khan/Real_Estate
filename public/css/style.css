@@ -2053,9 +2053,9 @@ input[type="checkbox"]:checked::before {
   fill: #7166f0;
 }
 .homec-testimonial__text {
-  font-size: 22px;
+  font-size: 16px;
   font-style: italic;
-  line-height: 34px;
+  /* line-height: 34px; */
 }
 .homec-testimonial__bottom {
   display: flex;
@@ -2082,7 +2082,7 @@ input[type="checkbox"]:checked::before {
 }
 .homec-testimonial__quote svg {
   fill: #7166f0;
-  max-width: 150px;
+  max-width: 64px;
 }
 
 .homec-rating {
@@ -5717,7 +5717,7 @@ div.ck-editor.ck-rounded-corners {
   max-width: 45%;
 }
 .homec-form__label {
-  color: #7166f0;
+  color: #586472;
   font-size: 16px;
 }
 .homec-form__title {
@@ -5749,7 +5749,7 @@ div.ck-editor.ck-rounded-corners {
   margin: 0;
 }
 .homec-form__form input::placeholder {
-  color: #7166f0 !important;
+  color: #586472 !important;
   opacity: 1 !important;
 }
 .homec-form__form input::-ms-input-placeholder {
@@ -5991,6 +5991,7 @@ div.ck-editor.ck-rounded-corners {
   color: #fff;
   margin-bottom: 30px;
   max-width: 270px;
+  font-size: 12px;
 }
 .footer-area p {
   color: #fff;

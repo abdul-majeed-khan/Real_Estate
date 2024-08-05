@@ -27,13 +27,11 @@ function Footer() {
                   <div className="footer-about-widget">
                     <div className="footer-logo homec-header__logo">
                       <Link className="logo" href="/">
-                        <img src="img/logo-footer.png" alt="#" />
+                        <img src="img/logo-footer.svg" alt="#" />
                       </Link>
                     </div>
                     <p className="footer-about-text">
-                      There are many variatons of pass Ipsum available, but the
-                      majority alteration in some form, by inject randomised
-                      words
+                     If you are looking for an agent who you can trust to achieve your property goals. . . look no further Platinum Square Real Estate is at your service!
                     </p>
                     {/* Social   */}
                     <ul className="homec-social homec-social__v2">

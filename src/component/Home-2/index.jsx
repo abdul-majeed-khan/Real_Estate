@@ -10,7 +10,7 @@ import PropertyListing from "../PropertyListing";
 import AgentsV2 from "../Agents/AgentsV2";
 import FunFacts from "../FunFact";
 import CustomerReviews from "../CustomerReviews";
-import DownloadApp from "../DownloadApp";
+// import DownloadApp from "../DownloadApp";
 import Blog from "../Blog";
 import Preloader from "../Loader";
 
@@ -35,7 +35,7 @@ function Home2() {
         <AgentsV2 />
         <FunFacts />
         <CustomerReviews />
-        <DownloadApp />
+        {/* <DownloadApp /> */}
         <Blog />
         <Footer />
         <GoTopBtn />

@@ -17,7 +17,7 @@ function Blog() {
                   data-aos="fade-in"
                   data-aos-delay="300"
                 >
-                  Get our Information
+                  Blogs
                 </span>
                 <h2
                   className="homec-section__title"

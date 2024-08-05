@@ -25,7 +25,7 @@ function ReviewCardV2({ rating, text, authorName, authorPosition, date, v2 }) {
         <div className="homec-testimonial__bottom mg-top-10">
           {/* <!-- Testimonial Author --> */}
           <div className="homec-testimonial__author">
-            <img src="https://placehold.co/64x64" alt="#" />
+            <img src="img/client.png" alt="#" />
             <div className="homec-testimonial__author--info">
               <h5 className="homec-testimonial__author--title">{authorName}</h5>
               <p className="homec-testimonial__author--position">

@@ -45,7 +45,7 @@ function CustomerReviews() {
               {reviews?.map((review) => (
                 <ReviewCardV2
                   key={review.id}
-                  dating={review.rating}
+                  rating={review.rating}
                   text={review.text}
                   authorName={review.authorName}
                   authorPosition={review.authorPosition}
@@ -77,17 +77,12 @@ function CustomerReviews() {
                   "mobile",
                 ]}
               >
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
-                <LogoCard link="#" img="https://placehold.co/150x42" />
+                <LogoCard link="#" img="img/brand/damac.png" />
+                <LogoCard link="#" img="img/brand/emaar.png" />
+                <LogoCard link="#" img="img/brand/ellington.png" />
+                <LogoCard link="#" img="img/brand/binghatti.png" />
+                <LogoCard link="#" img="img/brand/meraas.png" />
+                <LogoCard link="#" img="img/brand/danube.png" />
               </Carousel>
             </div>
             {/* <!-- End Clients Logo Slider --> */}
