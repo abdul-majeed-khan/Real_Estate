@@ -119,8 +119,8 @@ function PropertyDetails() {
           </div>
           <PropertyAgents
             image="https://placehold.co/90x90"
-            name="Wade De Warren"
-            position="Real Estate Broker"
+            name="Federico"
+            position="Property Consultant"
           />
         </div>
       </div>
