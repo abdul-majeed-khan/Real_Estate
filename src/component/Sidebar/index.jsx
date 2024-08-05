@@ -7,22 +7,22 @@ function index() {
   return (
     <div className="col-lg-4 col-12 mg-top-30">
       <div className="property-sidebar">
-        <SelectiveInput
+        {/* <SelectiveInput
           title="Country"
           options={[
             { id: 1, name: "Bangladesh" },
             { id: 2, name: "United Kingdom" },
             { id: 3, name: "United State" },
           ]}
-        />
+        /> */}
         <SelectiveInput
-          title="City"
+          title="Area"
           options={[
-            { id: 1, name: "Dhaka City" },
-            { id: 2, name: "Chittagong" },
-            { id: 3, name: "Sylhet" },
-            { id: 4, name: "Khulna" },
-            { id: 5, name: "Rajshahi" },
+            { id: 1, name: "Downtown" },
+            { id: 2, name: "Business Bay" },
+            { id: 3, name: "Dubai Marina" },
+            { id: 4, name: "Palm Jumeirah" },
+            { id: 5, name: "Jumeirah village circle" },
           ]}
           classes="mg-top-20"
         />
@@ -38,16 +38,18 @@ function index() {
         <CheckInput
           title="Number Of Rooms"
           properties={[
-            "Room 1",
-            "Room 2",
-            "Room 3",
-            "Room 4",
-            "Room 5",
-            "Room 6",
+            "studio",
+            "1 Bedroom",
+            "2 Bedroom",
+            "3 Bedroom",
+            "4 Bedroom",
+            "5 Bedroom",
+            "6 Bedroom",
+            "7 Bedroom",
           ]}
           name="room"
         />
-        <CheckInput
+        {/* <CheckInput
           title="Bathrooms"
           properties={[
             "Room 1",
@@ -58,20 +60,20 @@ function index() {
             "Room 6",
           ]}
           name="bathrooms"
-        />
+        /> */}
         <RangeInput
           minRange={0}
-          maxRange={2000}
-          defaultMinRange={400}
-          defaultMaxRange={1200}
+          maxRange={7000}
+          defaultMinRange={600}
+          defaultMaxRange={1800}
           title="Square feet"
           standard="sq. ft."
         />
         <RangeInput
           minRange={0}
-          maxRange={600}
-          defaultMinRange={120}
-          defaultMaxRange={450}
+          maxRange={12000000}
+          defaultMinRange={1000000}
+          defaultMaxRange={5000000}
           title="Price"
           text="Range: "
           symbol="$"
