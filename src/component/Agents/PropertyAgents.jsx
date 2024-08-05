@@ -39,7 +39,7 @@ function PropertyAgents({ image, name, position }) {
               name="firstName"
               value={input.firstName}
               onChange={(e) => handleChange(e)}
-              placeholder="Abdullah Al"
+              placeholder="first name"
             />
           </div>
           <div className="form-group">
@@ -48,7 +48,7 @@ function PropertyAgents({ image, name, position }) {
               name="lastName"
               value={input.lastName}
               onChange={(e) => handleChange(e)}
-              placeholder="Mamun"
+              placeholder="last name"
             />
           </div>
           <div className="form-group">
