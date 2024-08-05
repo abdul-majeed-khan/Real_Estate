@@ -22,10 +22,10 @@ function Navbar({ handleSidebar, secondNav }) {
                     <div className="nav-item">
                       {/* Main Menu  */}
                       <ul className="nav-menu menu navigation list-none">
-                        <NavBtn text="Home" link="/">
-                          <NavBtn link="/" text="Homepage 01" />
+                        <NavBtn text="Home" link="/home2">
+                          {/* <NavBtn link="/" text="Homepage 01" /> */}
                           <NavBtn link="/home2" text="Homepage 02" />
-                          <NavBtn link="/home3" text="Homepage 03" />
+                          {/* <NavBtn link="/home3" text="Homepage 03" /> */}
                         </NavBtn>
                         <NavBtn text="Properties" link="#">
                           <NavBtn link="/property" text="Properties" />
