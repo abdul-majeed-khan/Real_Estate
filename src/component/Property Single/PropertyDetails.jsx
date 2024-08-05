@@ -47,11 +47,11 @@ function PropertyDetails() {
                 active={activeTab}
                 handleActive={handleActive}
               />
-              <PropertyDetailsBtn
+              {/* <PropertyDetailsBtn
                 title="Review"
                 active={activeTab}
                 handleActive={handleActive}
-              />
+              /> */}
             </div>
 
             <div className="homec-pdetails-tab">
