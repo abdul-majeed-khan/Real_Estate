@@ -739,7 +739,7 @@ input[type="checkbox"]:checked::before {
 }
 .homec-agent-card {
   padding: 30px 50px;
-  background-color: #7065f0;
+  background-color: #222933;
   border-radius: 4px;
 }
 .homec-agent-card__title {

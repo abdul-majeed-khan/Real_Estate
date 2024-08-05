@@ -30,44 +30,44 @@ function AgentsSidebarSlider() {
           customDot={<CustomDot />}
         >
           <AgentCard
-            img="https://placehold.co/35x35"
+            img="img/agents/walid.jpg"
             phone="#"
             linkedin="#"
             twitter="#"
             insta="#"
-            name="Wade De Warren"
-            desc="Real Estate Broker"
+            name="Walid Amin"
+            desc="Co-Founder & CEO"
             fullWidth={true}
           />
           <AgentCard
-            img="https://placehold.co/35x35"
+            img="img/agents/marwan.jpg"
             phone="#"
             linkedin="#"
             twitter="#"
             insta="#"
-            name="Kathryn Murphy"
+            name="Marwan Younes"
             fullWidth={true}
-            desc="Real Estate Broker"
+            desc="Managing Partner"
           />
           <AgentCard
-            img="https://placehold.co/35x35"
+            img="img/agents/david.jpg"
             phone="#"
             linkedin="#"
             twitter="#"
             insta="#"
-            name="Cody Fisher"
+            name="Dávid Lehotský"
             fullWidth={true}
-            desc="Real Estate Broker"
+            desc="Sales Manager"
           />
           <AgentCard
-            img="https://placehold.co/35x35"
+            img="img/agents/bogdan.jpg"
             phone="#"
             linkedin="#"
             twitter="#"
             insta="#"
-            name="Arlene McCoy"
+            name="Bogdan Spiru"
             fullWidth={true}
-            desc="Real Estate Broker"
+            desc="Sales Manager"
           />
         </Carousel>
       </div>
