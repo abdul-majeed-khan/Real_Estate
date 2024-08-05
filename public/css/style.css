@@ -3007,7 +3007,7 @@ input[type="checkbox"]:checked::before {
   margin: 0;
 }
 .homec-blog:hover .homec-blog__title {
-  color: #7166f0;
+  color: #586472;
 }
 .homec-blog__title a {
   font-size: 24px;
@@ -3031,7 +3031,7 @@ input[type="checkbox"]:checked::before {
   margin: 0;
 }
 .homec-blog__meta li svg {
-  fill: #7166f0;
+  fill: #586472;
 }
 .homec-blog__meta li.active {
   color: #7166f0;
@@ -3074,7 +3074,7 @@ input[type="checkbox"]:checked::before {
   font-size: 18px;
 }
 .homec-blog__btn:hover {
-  color: #7166ef;
+  color: #586472;
 }
 .homec-blog__btn svg {
   stroke: currentColor;
