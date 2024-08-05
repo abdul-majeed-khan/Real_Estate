@@ -6768,9 +6768,10 @@ div.ck-editor.ck-rounded-corners {
 }
 .homec-pagination ul li a:hover,
 .homec-pagination ul li.active a {
-  background: #6176fe;
+  background: #586472;
   color: #fff !important;
   border-color: transparent !important;
+  cursor: pointer;
 }
 
 .homec-pagination ul .homec-pagination__button a {
