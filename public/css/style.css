@@ -1220,7 +1220,7 @@ input[type="checkbox"]:checked::before {
   font-size: 16px;
 }
 .homec-property-ag {
-  background-color: #7166f0;
+  background-color: #222933;
   padding: 25px;
   border-radius: 4px;
 }
@@ -1234,7 +1234,7 @@ input[type="checkbox"]:checked::before {
   align-items: center;
   gap: 10px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #8d85f3;
+  border-bottom: 1px solid #9c9c9c;
 }
 .homec-property-ag__author--content {
   display: flex;
@@ -1274,7 +1274,7 @@ input[type="checkbox"]:checked::before {
 .homec-property-ag__form textarea {
   background: transparent;
   width: 100%;
-  border: 1px solid #ada7f7;
+  border: 1px solid #9c9c9c;
   border-radius: 4px;
   color: #fff;
   height: 52px;
@@ -1285,19 +1285,19 @@ input[type="checkbox"]:checked::before {
   color: #fff;
 }
 .homec-property-ag__form input::placeholder {
-  color: #c6c2f9 !important;
+  color: #c9c9c9 !important;
   opacity: 1 !important;
 }
 .homec-property-ag__form input::-ms-input-placeholder {
-  color: #c6c2f9 !important;
+  color: #c9c9c9 !important;
   opacity: 1 !important;
 }
 .homec-property-ag__form textarea::placeholder {
-  color: #c6c2f9 !important;
+  color: #c9c9c9 !important;
   opacity: 1 !important;
 }
 .homec-property-ag__form textarea::-ms-input-placeholder {
-  color: #c6c2f9 !important;
+  color: #c9c9c9 !important;
   opacity: 1 !important;
 }
 .homec-property-ag__form input:hover,
