@@ -37,7 +37,7 @@ function PropertyLocation({ address, text, isActive }) {
           <iframe
             id="homec-gmap-canvas"
             className="homec-gmap-iframe"
-            src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57803.7388702611!2d55.10465246953125!3d25.110875000000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6b3a3a4e2cdf%3A0xe9d347e24203bb6f!2sComo%20Residences!5e0!3m2!1sen!2sae!4v1722938307670!5m2!1sen!2sae"
           ></iframe>
         </div>
       </div>
