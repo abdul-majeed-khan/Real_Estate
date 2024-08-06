@@ -59,8 +59,8 @@ function PropertyDetails() {
                 <DetailsTab
                   isActive={activeTab === "Property Details"}
                   text={[
-                    "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,",
-                    'discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.',
+                    "Como Residences is a luxury development by Nakheel Properties. The stunning 75-storey tower, exuding unrivalled elegance and splendour, will take the shape of an organic sea shell pointing towards the sky. Highlights of the complex include a series of vertical lakes and a rooftop landscape pool, which will be located on the 71st floor. There is also a 360-degree rooftop observation deck, which has become the highest observation deck at Palm Jumeirah.",
+                    'The project offers a total of 76 limited edition residences, namely 2-6 bedroom apartments, 7-bedroom duplexes and one impressive 5-bedroom duplex penthouse.',
                   ]}
                 >
                   <DetailsTabFeatures
@@ -96,7 +96,6 @@ function PropertyDetails() {
                       "Free coffe and tea",
                       "Accepts Credit Cards",
                       "Air Condition",
-                      "Cable Tv",
                       "Balcony",
                     ]}
                     check={true}
@@ -109,7 +108,7 @@ function PropertyDetails() {
                   text="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden end to main to marked."
                 />
                 <PropertyLocation
-                  address="70 Washington Square South, New York, NY 10012, United States"
+                  address="446W+88X Palm Jumeirah - The Palm Jumeirah - Dubai"
                   text="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden end to main to marked."
                   isActive={activeTab === "Locations"}
                 />
