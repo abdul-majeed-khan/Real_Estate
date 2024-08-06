@@ -7,7 +7,7 @@ function ImageCard({ price, duration, title, text, img }) {
       <div className="homec-amount-card homec-amount-card__sticky">
         <h4 className="homec-amount-card__amount">
           ${price}
-          <span>Per {duration}</span>
+          <span>Starting {duration}</span>
         </h4>
       </div>
       {/* End Amount Card  */}
