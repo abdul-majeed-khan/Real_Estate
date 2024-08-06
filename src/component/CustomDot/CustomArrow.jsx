@@ -22,7 +22,7 @@ const ButtonGroup = ({ next, previous, ...rest }) => {
           alignItems: "center",
           borderRadius: "50%",
           color: "white",
-          background: "#b2acf7",
+          background: "#586472",
         }}
         className={currentSlide === 0 ? "disable" : ""}
         onClick={() => previous()}
@@ -40,7 +40,7 @@ const ButtonGroup = ({ next, previous, ...rest }) => {
           alignItems: "center",
           borderRadius: "50%",
           color: "white",
-          background: "#b2acf7",
+          background: "#586472",
         }}
       >
         <i className="fa-solid fa-chevron-right"></i>

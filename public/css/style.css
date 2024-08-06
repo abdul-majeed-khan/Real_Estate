@@ -833,6 +833,7 @@ input[type="checkbox"]:checked::before {
 .homec-list-tabs.homec-list-tabs--v2 a:hover {
   color: #7166f0 !important;
   border-bottom-color: #7166f0;
+  cursor: pointer;
 }
 .homec-list-tabs.homec-list-tabs--v2 a {
   padding: 15px 0;
@@ -1320,7 +1321,7 @@ input[type="checkbox"]:checked::before {
   width: 100%;
 }
 .homec-ptdetails-features__title {
-  color: #7166f0;
+  color: #222933;
   font-weight: 500;
   font-size: 18px;
 }
@@ -1387,10 +1388,10 @@ input[type="checkbox"]:checked::before {
   align-items: center;
   border-radius: 100%;
   margin-bottom: 30px;
-  color: #7166f0;
+  color: #586472  ;
 }
 .homec-location-card:hover .homec-location-card__icon {
-  background: #7166f0;
+  background: #222933;
   color: #fff;
 }
 .homec-location-card__text {
@@ -2736,7 +2737,7 @@ input[type="checkbox"]:checked::before {
 .homec-accordion__single:before {
   width: 3px;
   height: 0%;
-  background: #7166f0;
+  background: #586472;
   content: "";
   opacity: 0;
   visibility: hidden;
@@ -2763,7 +2764,7 @@ input[type="checkbox"]:checked::before {
 
 .homec-accordion__single.active .homec-accordion__heading,
 .homec-accordion__single:hover .homec-accordion__heading {
-  color: #7166f0;
+  color: #586472;
 }
 .accordion-body.homec-accordion__body {
   color: #7e8ba0;
