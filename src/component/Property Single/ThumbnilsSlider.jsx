@@ -13,17 +13,13 @@ function ThumbnailsSlider() {
         arrows={false}
         customButtonGroup={<ButtonGroup />}
       >
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
-        <ThumbnilsCard img="https://placehold.co/270x180" />
+        <ThumbnilsCard img="img/property-sm/como01.jpg" />
+        <ThumbnilsCard img="img/property-sm/como02.jpg" />
+        <ThumbnilsCard img="img/property-sm/como03.jpg" />
+        <ThumbnilsCard img="img/property-sm/como04.jpg" />
+        <ThumbnilsCard img="img/property-sm/como05.jpg" />
+        <ThumbnilsCard img="img/property-sm/como06.jpg" />
+        <ThumbnilsCard img="img/property-sm/como07.jpg" />
       </Carousel>
     </div>
   );
