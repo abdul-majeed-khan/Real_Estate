@@ -19,32 +19,32 @@ function SingleSlider() {
       ]}
     >
       <ImageCard
-        price="3,976"
-        duration="Month"
-        title="Modern House With Pool"
-        text="1901 Thornridge Cir. Shiloh, Hawaii 81063"
-        img="https://placehold.co/1170x600"
+        price="14,256,484"
+        duration="Price"
+        title="Como Residences"
+        text="The Palm Jumeirah - Dubai"
+        img="img/property/como1.jpg"
       />
       <ImageCard
-        price="3,976"
-        duration="Month"
-        title="Affordable Green Villa House"
-        text="1901 Thornridge Cir. Shiloh, Hawaii 81063"
-        img="https://placehold.co/1170x600"
+        price="14,256,484"
+        duration="Price"
+        title="Como Residences"
+        text="The Palm Jumeirah - Dubai"
+        img="img/property/como2.jpg"
       />
       <ImageCard
-        price="3,976"
-        duration="Month"
-        title="Modern House With Pool"
-        text="1901 Thornridge Cir. Shiloh, Hawaii 81063"
-        img="https://placehold.co/1170x600"
+        price="14,256,484"
+        duration="Price"
+        title="Como Residences"
+        text="The Palm Jumeirah - Dubai"
+        img="img/property/como5.jpg"
       />
       <ImageCard
-        price="3,976"
-        duration="Month"
-        title="Affordable Green Villa House"
-        text="1901 Thornridge Cir. Shiloh, Hawaii 81063"
-        img="https://placehold.co/1170x600"
+        price="14,256,484"
+        duration="Price"
+        title="Como Residences"
+        text="The Palm Jumeirah - Dubai"
+        img="img/property/como6.jpg"
       />
     </Carousel>
   );
