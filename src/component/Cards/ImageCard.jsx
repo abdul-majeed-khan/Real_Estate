@@ -11,7 +11,7 @@ function ImageCard({ price, duration, title, text, img }) {
         </h4>
       </div>
       {/* End Amount Card  */}
-      <div className="homec-overlay"></div>
+      <div className=""></div>
       <img src={img} alt="#" />
       <div className="homec-image-gallery__bottom">
         <div className="homec-image-gallery__content">

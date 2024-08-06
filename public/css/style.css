@@ -822,9 +822,9 @@ input[type="checkbox"]:checked::before {
   overflow: hidden;
   margin-bottom: 8px;
 }
-.homec-image-gallery .homec-overlay {
+/* .homec-image-gallery .homec-overlay {
   background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #293a58 100%);
-}
+} */
 
 .homec-list-tabs.homec-list-tabs--v2 a {
   color: #7e8ba0;
