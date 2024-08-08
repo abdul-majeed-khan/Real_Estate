@@ -8,6 +8,7 @@ import About from "../About/About";
 import LatestPropertyV2 from "../LatestProperty/LatestPropertyV2";
 import PropertyListing from "../PropertyListing";
 import AgentsV2 from "../Agents/AgentsV2";
+import InstagramFeed from "../Instagram/insta";
 import FunFacts from "../FunFact";
 import CustomerReviews from "../CustomerReviews";
 // import DownloadApp from "../DownloadApp";
@@ -36,6 +37,7 @@ function Home2() {
         <FunFacts />
         <CustomerReviews />
         {/* <DownloadApp /> */}
+        <InstagramFeed />
         <Blog />
         <Footer />
         <GoTopBtn />
