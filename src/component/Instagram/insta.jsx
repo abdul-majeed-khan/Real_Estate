@@ -12,9 +12,10 @@ const Container = styled.div`
 
 const Title = styled.h2`
   text-align: center;
-  margin-bottom: 30px;
-  font-size: 24px;
-  font-weight: 600;
+  margin-bottom: 50px;
+  font-size: 28px;
+  font-weight: 700;
+
 `;
 
 const StyledSlider = styled(Slider)`
@@ -39,7 +40,7 @@ const Post = styled.div`
 
 const InstagramFeed = () => {
   const [posts, setPosts] = useState([]);
-  const accessToken = 'IGQWRPY0dkYWFIbDdoazNuV2xNeF8wbFNoUWRZAY0tMb0ZAOZADgzYWxDYTRmcmZAndEhpR2ZAVa1J2S29uV0ZA1clpSTUhCem1vUXhZAUFA0V250MzIteThGdmhBTXJPVVlicTZALZAkVJcWJ3NXJza0lZAMGo1WDhhSlppUzQZD';
+  const accessToken = 'IGQWRQRTBQenR4dkt2S3ZAqM0taaFo1akxaRG5KdDA1Skg3TGZAtX2Ffdks1eURjcTM4bV9RcnhfV2lwN3JiUVpCajNiMjkzSW56amQzck9DYml0a05DdkFvc2QtaGUzUEtoMExvTGNPMndwVmpJVU0tczRIRVQ5RXMZD';
   const limit = 9; // Number of posts to fetch
 
   useEffect(() => {
@@ -85,7 +86,7 @@ const InstagramFeed = () => {
 
   return (
     <Container>
-      <Title>My Instagram Feed</Title>
+      <Title>Instagram Feed</Title>
       <StyledSlider {...settings}>
         {posts.map((post) => (
           <Post key={post.id}>
