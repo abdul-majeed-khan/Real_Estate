@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Container = styled.div`
   padding: 0 40px;
-  margin: 40px 0;
+  margin: 40px 0px;
 `;
 
 const Title = styled.h2`
@@ -40,7 +40,7 @@ const Post = styled.div`
 
 const InstagramFeed = () => {
   const [posts, setPosts] = useState([]);
-  const accessToken = 'IGQWRQRTBQenR4dkt2S3ZAqM0taaFo1akxaRG5KdDA1Skg3TGZAtX2Ffdks1eURjcTM4bV9RcnhfV2lwN3JiUVpCajNiMjkzSW56amQzck9DYml0a05DdkFvc2QtaGUzUEtoMExvTGNPMndwVmpJVU0tczRIRVQ5RXMZD';
+  const accessToken = 'IGQWROWU5PaEVZAaTVlYlVjQlY4MHZAreTVOS1NfUnozWFR2MXVEUHp1cHRzLWlHUDhJcVFySWNhdmR2Yy0zX3ZACcU1kakJrYjVqWjB5UW16R01wOHcweHlPNGd3Q3lqMkt1cDRfMGltU0VlajBBaHVUcVFJdFdMejAZD';
   const limit = 9; // Number of posts to fetch
 
   useEffect(() => {
