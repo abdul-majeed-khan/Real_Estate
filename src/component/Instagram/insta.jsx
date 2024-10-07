@@ -37,32 +37,33 @@ const Post = styled.div`
   }
 `;
 
-// Import the access token from a separate file
-import { INSTAGRAM_ACCESS_TOKEN } from '../config';
+const INSTAGRAM_TOKEN = import.meta.env.VITE_REACT_APP_INSTAGRAM_TOKEN;
 
 const InstagramFeed = () => {
   const [posts, setPosts] = useState([]);
-  const accessToken = INSTAGRAM_ACCESS_TOKEN;
+  const [error, setError] = useState(null);
   const limit = 9; // Number of posts to fetch
 
   useEffect(() => {
     const fetchPosts = async () => {
+      if (!INSTAGRAM_TOKEN) {
+        setError('Instagram access token is not set. Please check your environment variables.');
+        return;
+      }
+
       try {
         const response = await axios.get(
-          `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=${accessToken}&limit=${limit}`
+          `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink&access_token=${INSTAGRAM_TOKEN}&limit=${limit}`
         );
         setPosts(response.data.data);
       } catch (error) {
         console.error('Error fetching Instagram posts:', error);
+        setError('Failed to fetch Instagram posts. Please try again later.');
       }
     };
 
-    if (accessToken) {
-      fetchPosts();
-    } else {
-      console.error('Instagram access token is not set');
-    }
-  }, [accessToken]);
+    fetchPosts();
+  }, []);
 
   const settings = {
     dots: true,
@@ -90,20 +91,28 @@ const InstagramFeed = () => {
     ],
   };
 
+  if (error) {
+    return <Container><Title>{error}</Title></Container>;
+  }
+
   return (
     <Container>
       <Title>Instagram Feed</Title>
-      <StyledSlider {...settings}>
-        {posts.map((post) => (
-          <Post key={post.id}>
-            {post.media_type === 'IMAGE' || post.media_type === 'CAROUSEL_ALBUM' ? (
-              <img src={post.media_url} alt={post.caption} />
-            ) : post.media_type === 'VIDEO' ? (
-              <video src={post.media_url} controls />
-            ) : null}
-          </Post>
-        ))}
-      </StyledSlider>
+      {posts.length > 0 ? (
+        <StyledSlider {...settings}>
+          {posts.map((post) => (
+            <Post key={post.id}>
+              {post.media_type === 'IMAGE' || post.media_type === 'CAROUSEL_ALBUM' ? (
+                <img src={post.media_url} alt={post.caption} />
+              ) : post.media_type === 'VIDEO' ? (
+                <video src={post.media_url} controls />
+              ) : null}
+            </Post>
+          ))}
+        </StyledSlider>
+      ) : (
+        <p>Loading Instagram posts...</p>
+      )}
     </Container>
   );
 };
