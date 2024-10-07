@@ -15,7 +15,6 @@ const Title = styled.h2`
   margin-bottom: 50px;
   font-size: 28px;
   font-weight: 700;
-
 `;
 
 const StyledSlider = styled(Slider)`
@@ -38,9 +37,12 @@ const Post = styled.div`
   }
 `;
 
+// Import the access token from a separate file
+import { INSTAGRAM_ACCESS_TOKEN } from '../config';
+
 const InstagramFeed = () => {
   const [posts, setPosts] = useState([]);
-  const accessToken = 'IGQWRONmZAZATjBPQzRBbjhuWTJicU9YOXAzdTE5RWVmdk1MUkI1MEJPV2JaSUpyMlN2enZAuOFBybV93MXVRVVNOMUtYdEYtU2tuaVhiRkdrYk16SUlOeEFYUTRxRjZAJa2xnUkdlTzl4T28zZAXBNVnhPU1ZAvVmJMdFUZD';
+  const accessToken = INSTAGRAM_ACCESS_TOKEN;
   const limit = 9; // Number of posts to fetch
 
   useEffect(() => {
@@ -55,8 +57,12 @@ const InstagramFeed = () => {
       }
     };
 
-    fetchPosts();
-  }, []);
+    if (accessToken) {
+      fetchPosts();
+    } else {
+      console.error('Instagram access token is not set');
+    }
+  }, [accessToken]);
 
   const settings = {
     dots: true,
