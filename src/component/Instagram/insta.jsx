@@ -40,7 +40,7 @@ const Post = styled.div`
 
 const InstagramFeed = () => {
   const [posts, setPosts] = useState([]);
-  const accessToken = 'IGQWROWU5PaEVZAaTVlYlVjQlY4MHZAreTVOS1NfUnozWFR2MXVEUHp1cHRzLWlHUDhJcVFySWNhdmR2Yy0zX3ZACcU1kakJrYjVqWjB5UW16R01wOHcweHlPNGd3Q3lqMkt1cDRfMGltU0VlajBBaHVUcVFJdFdMejAZD';
+  const accessToken = 'IGQWRONmZAZATjBPQzRBbjhuWTJicU9YOXAzdTE5RWVmdk1MUkI1MEJPV2JaSUpyMlN2enZAuOFBybV93MXVRVVNOMUtYdEYtU2tuaVhiRkdrYk16SUlOeEFYUTRxRjZAJa2xnUkdlTzl4T28zZAXBNVnhPU1ZAvVmJMdFUZD';
   const limit = 9; // Number of posts to fetch
 
   useEffect(() => {
