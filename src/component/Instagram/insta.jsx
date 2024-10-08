@@ -37,6 +37,7 @@ const MediaContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 `;
 
 const StyledImage = styled.img`
@@ -51,6 +52,28 @@ const StyledVideo = styled.video`
   object-fit: cover;
 `;
 
+const PlayButton = styled.button`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+`;
+
 const PlaceholderText = styled.p`
   text-align: center;
   color: #888;
@@ -59,6 +82,7 @@ const PlaceholderText = styled.p`
 const InstagramFeed = () => {
   const [posts, setPosts] = useState([]);
   const [error, setError] = useState(null);
+  const [playingVideo, setPlayingVideo] = useState(null);
   const limit = 9; // Number of posts to fetch
 
   useEffect(() => {
@@ -85,16 +109,25 @@ const InstagramFeed = () => {
     fetchPosts();
   }, []);
 
+  const handlePlayVideo = (postId) => {
+    setPlayingVideo(postId);
+  };
+
   const renderMedia = (post) => {
     switch (post.media_type) {
       case 'IMAGE':
         return <StyledImage src={post.media_url} alt={post.caption || 'Instagram post'} />;
       case 'VIDEO':
-        return post.thumbnail_url ? (
-          <StyledImage src={post.thumbnail_url} alt={post.caption || 'Video thumbnail'} />
-        ) : (
-          <StyledVideo src={post.media_url} controls />
-        );
+        if (playingVideo === post.id) {
+          return <StyledVideo src={post.media_url} controls autoPlay />;
+        } else {
+          return (
+            <>
+              <StyledImage src={post.thumbnail_url || post.media_url} alt={post.caption || 'Video thumbnail'} />
+              <PlayButton onClick={() => handlePlayVideo(post.id)}>▶</PlayButton>
+            </>
+          );
+        }
       case 'CAROUSEL_ALBUM':
         return post.media_url ? (
           <StyledImage src={post.media_url} alt={post.caption || 'Carousel post'} />
