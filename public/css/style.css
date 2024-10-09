@@ -83,7 +83,7 @@ Version:	1.0
   width: 100%;
 }
 .homec-header__inside {
-  background: #fff;
+  /* background: #222933; */
   padding: 20px;
   border-radius: 4px;
   display: flex;
@@ -99,7 +99,7 @@ Version:	1.0
   float: left;
 }
 .homec-header__logo img {
-  max-width: 150px;
+  max-width: 200px;
   max-height: 46px;
 }
 .homec-header__menu {
@@ -126,7 +126,7 @@ Version:	1.0
 .homec-header__menu .nav-menu li a {
   padding: 14px 0;
   display: inline-block;
-  color: #111111;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
 }
@@ -291,7 +291,7 @@ Version:	1.0
     position: fixed;
     top: 0;
     padding: 0;
-    background: #ffffff;
+    background: #222933;
     box-shadow: 0px 9px 126px rgba(20, 0, 255, 0.18);
   }
   #active-sticky.is-sticky .homec-header__inside {
