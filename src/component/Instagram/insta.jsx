@@ -171,7 +171,7 @@ const InstagramFeed = () => {
 
   return (
     <Container>
-      <Title>Instagram Feed</Title>
+      <Title>News & Media</Title>
       {posts.length > 0 ? (
         <StyledSlider {...settings}>
           {posts.map((post) => (
