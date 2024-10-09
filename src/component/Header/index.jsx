@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import MobileMenu from "../Navbar/MobileMenu";
 import Navbar from "../Navbar";
-import Topbar from "../Topbar";
+// import Topbar from "../Topbar";
 import ProtoTypes from "prop-types";
 
 function Header({ v2 }) {
@@ -30,7 +30,7 @@ function Header({ v2 }) {
         id="active-sticky"
         className={`homec-header ${scrollPosition > 20 && "is-sticky"}`}
       >
-        <Topbar v2={v2} />
+        {/* <Topbar v2={v2} /> */}
         <Navbar handleSidebar={toggleSidebar} secondNav={v2} />
       </header>
     </>
