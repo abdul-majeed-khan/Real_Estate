@@ -27,7 +27,7 @@ function Topbar({ v2 }) {
                   text="+971 58 535 9315"
                 />
                 <TopbarBtn
-                  link="mailto:HomeC34@gmail.com"
+                  link="https://maps.app.goo.gl/SbcA5xoD7HoHUzPq8"
                   img="img/locations-icon.svg"
                   text="2904 Concord Tower, Media City, PO.Box 93497"
                 />
