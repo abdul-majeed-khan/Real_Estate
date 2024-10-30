@@ -134,7 +134,7 @@ Version:	1.0
 .homec-header__menu .nav-menu li.active a,
 #offcanvas-menu li a:hover,
 #offcanvas-menu li.active a {
-  color: #7166ef;
+  color: #586472;
 }
 .menu-right-search-bar {
   margin-left: 75px;
@@ -176,7 +176,7 @@ Version:	1.0
   border-radius: 4px;
   margin: 0;
   padding: 15px 0px;
-  border-top: 3px solid #7166f0;
+  border-top: 3px solid #586472;
 }
 .homec-header .navigation li:hover .sub-menu {
   opacity: 1;
@@ -200,7 +200,7 @@ Version:	1.0
   font-weight: 400;
 }
 .homec-header .navigation li .sub-menu li a:hover {
-  color: #7166f0 !important;
+  color: #586472 !important;
   padding: 7px 25px;
   margin-left: 5px;
 }
