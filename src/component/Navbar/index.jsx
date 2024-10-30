@@ -24,12 +24,13 @@ function Navbar({ handleSidebar, secondNav }) {
                       <ul className="nav-menu menu navigation list-none">
                         <NavBtn text="Home" link="/home2">
                           {/* <NavBtn link="/" text="Homepage 01" /> */}
-                          <NavBtn link="/home2" text="Homepage 02" />
+                          {/* <NavBtn link="/home2" text="Homepage 02" /> */}
                           {/* <NavBtn link="/home3" text="Homepage 03" /> */}
                         </NavBtn>
                         <NavBtn text="Properties" link="#">
-                          <NavBtn link="/property" text="Properties" />
-                          <NavBtn
+                          <NavBtn link="/property" text="Offplan Properties" />
+                          <NavBtn link="/property" text="Ready Properties" />
+                          {/* <NavBtn
                             link="/property-single"
                             text="Property Single"
                           />
@@ -39,7 +40,7 @@ function Navbar({ handleSidebar, secondNav }) {
                             link="/submit-property"
                             text="Submit Property"
                           />
-                          <NavBtn link="/edit-property" text="Edit Property" />
+                          <NavBtn link="/edit-property" text="Edit Property" /> */}
                         </NavBtn>
                         <NavBtn text="Pages" link="#">
                           <NavBtn link="/about" text="About Us" />
