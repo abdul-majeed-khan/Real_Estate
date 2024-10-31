@@ -28,14 +28,14 @@ function Contact() {
         </Breadcrumbs>
         <section
           className="homec-contact-form homec-bg-cover pd-top-80 pd-btm-80 mg-top-100"
-          style={{ backgroundImage: "url('https://placehold.co/1920x800')" }}
+          style={{ backgroundImage: "url('img/contact-pg.jpg')" }}
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-4">
                 <div
                   className="homec-property-ag homec-bg-cover"
-                  style={{ backgroundImage: "url('img/property-ag-bg.svg')" }}
+                  //  
                 >
                   <h3 className="homec-property-ag__title">Contact Now</h3>
                   {/* End Property Profile */}
@@ -51,7 +51,7 @@ function Contact() {
             <div className="row">
               <div className="col-12">
                 <div className="homec-contact__middle homec-border">
-                  <SingleContact title="Contact Info" text="+334 232 34 3423">
+                  <SingleContact title="Contact Info" text="(+971) 55 534 5624">
                     <svg
                       width="35"
                       height="35"
@@ -66,7 +66,7 @@ function Contact() {
                   </SingleContact>
                   <SingleContact
                     title="Location"
-                    text="1901 Thornrid, Hawai 1063"
+                    text="2902 Concord Tower, Media City, Dubai, UAE"
                   >
                     <svg
                       width="31"
@@ -107,7 +107,7 @@ function Contact() {
                     <iframe
                       id="homec-gmap-contact"
                       className="homec-gmap-iframe"
-                      src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7226.239405288466!2d55.156296000000005!3d25.097809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x83c824ee83548731%3A0x380245f2e4fcd368!2sPlatinum%20Square%20Real%20Estate!5e0!3m2!1sen!2sae!4v1730272284313!5m2!1sen!2sae"
                     ></iframe>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ function Contact() {
             </div>
           </div>
         </section>
-        <DownloadApp />
+        {/* <DownloadApp /> */}
         <Footer />
         <GoTopBtn />
       </>
