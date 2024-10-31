@@ -4689,11 +4689,11 @@ blockquote::before {
 .homec-contact__title,
 .homec-contact__title a {
   margin: 0;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
 }
 .homec-contact__label {
-  font-size: 20px;
+  font-size: 18px;
   margin: 0;
 }
 .homec-contact__content {
