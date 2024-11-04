@@ -1194,7 +1194,7 @@ object {
   background: #fff;
   transition: all 0.4s ease;
   padding: 4px 15px;
-  color: #7166f0 !important;
+  color: #586472 !important;
   border-radius: 30px;
   display: flex;
   align-items: center;
@@ -1202,7 +1202,7 @@ object {
 }
 .scrollToTop:hover {
   opacity: 0.8;
-  background-color: #7166f0 !important;
+  background-color: #586472 !important;
   color: #fff !important;
 }
 .scrollToTop:hover i {
@@ -1216,7 +1216,7 @@ object {
 .scrollToTop i {
   font-size: 22px;
   display: inline-block;
-  color: #7166f0 !important;
+  color: #586472 !important;
   position: relative;
   top: 2px;
   left: 4px;

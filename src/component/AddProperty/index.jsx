@@ -49,7 +49,7 @@ function AddProperty() {
           </div>
         </section>
 
-        <DownloadApp />
+        {/* <DownloadApp /> */}
         <Footer />
         <GoTopBtn />
       </>

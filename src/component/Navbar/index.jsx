@@ -42,8 +42,8 @@ function Navbar({ handleSidebar, secondNav }) {
                           />
                           <NavBtn link="/edit-property" text="Edit Property" /> */}
                         </NavBtn>
-                        <NavBtn text="Pages" link="#">
-                          <NavBtn link="/about" text="About Us" />
+                        <NavBtn text="About Us" link="/about">
+                          {/* <NavBtn link="/about" text="About Us" />
                           <NavBtn link="/pricing" text="Pricing" />
                           <NavBtn
                             link="/payment-method"
@@ -52,11 +52,11 @@ function Navbar({ handleSidebar, secondNav }) {
                           <NavBtn link="/faq" text="Faq's" />
                           <NavBtn link="/login" text="Login" />
                           <NavBtn link="/signup" text="Sign Up" />
-                          <NavBtn link="/404" text="Error Page" />
+                          <NavBtn link="/404" text="Error Page" /> */}
                         </NavBtn>
-                        <NavBtn text="Agents" link="#">
-                          <NavBtn link="/our-agent" text="Our Agent" />
-                          <NavBtn link="/agent-detail" text="Agent Details" />
+                        <NavBtn text="Our Team" link="/our-agent">
+                          {/* <NavBtn link="/our-agent" text="Our Agent" />
+                          <NavBtn link="/agent-detail" text="Agent Details" /> */}
                         </NavBtn>
                         <NavBtn text="Blog" link="/blog">
                           {/* <NavBtn link="/blog" text="News" />

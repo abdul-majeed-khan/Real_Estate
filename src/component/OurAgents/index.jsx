@@ -76,7 +76,7 @@ function OurAgents() {
           </div>
         </section>
 
-        <FaqSection />
+        {/* <FaqSection /> */}
         {/* <DownloadApp /> */}
         <Footer />
         <GoTopBtn />
