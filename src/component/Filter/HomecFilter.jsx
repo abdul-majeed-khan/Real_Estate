@@ -75,7 +75,9 @@ function HomecFilter() {
                     />
                   </svg>
                 </span>
-                <span>Search</span>
+                <span>
+                  <a href="/property">Search</a>
+                </span>
               </span>
             </button>
           </div>
